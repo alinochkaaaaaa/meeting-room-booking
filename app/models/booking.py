@@ -12,8 +12,8 @@ class Booking(BaseModel):
     room_id: int
     user_id: int
     booking_date: date
-    time_slot_start: str  # Format: "09:00"
-    time_slot_end: str    # Format: "11:00"
+    time_slot_start: str
+    time_slot_end: str
     status: BookingStatus = BookingStatus.ACTIVE
     created_at: datetime
     cancelled_at: Optional[datetime] = None
