@@ -69,7 +69,7 @@ docker build -t meeting-room-booking .
 ```
 #### 2. Запуск контейнера
 ```bash
-docker run -p 8000:8000 meeting-room-booking
+docker run -p 8001:8000 meeting-room-booking
 ```
 ## Примеры работы с API
 
